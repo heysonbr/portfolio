@@ -1,6 +1,12 @@
+
+
+
+
+
+
 export default function descipcion() {
   return (
-    <div className="container mx-auto p-5 mt-20">
+    <div className="container mx-auto p-5 mt-20 lg:max-w-4xl md:max-w-2xl">
       <div className="flex">
         <img
           src="/avatar.png"
@@ -21,8 +27,15 @@ export default function descipcion() {
         </a>
       </div>
 
-      <h1 className="text-4xl font-bold ">Hola Soy Heyson</h1>
-      <p className="text-lg  mt-5"><strong>Full Stack Developer</strong> de Nicaragua, residiendo en Mallorca.</p>
+      <h1 className="text-4xl font-bold pt-5 text-white">Hola, soy Heyson</h1>
+      <p className="text-lg  mt-5 text-white">+1 Año experiencia. <strong className="text-purple-300">Full Stack Developer</strong> de Nicaragua, residiendo en Mallorca 🇪🇸. 
+      Especializado en el desarrollo de aplicaciones web únicas.</p>
+
+      <div className="pt-7">
+        <a className="text-white rounded-full w-full bg-gray-800 py-1 px-3 border-grey border border-solid mr-1" href="mailto:heysonbr@gmail.com">Contáctame</a>
+        <a className="text-white rounded-full w-full bg-gray-800 py-1 px-3 border-grey border border-solid m-1" href="https://www.linkedin.com/in/heyson-br/">Linkedin</a>
+        </div>          
+
     </div>
   );
 }
