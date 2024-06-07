@@ -3,7 +3,6 @@ import React from "./icons/react";
 import Bootstrap from "./icons/bootstrap";
 import MySQL from "./icons/mysql";
 
-
 export default function Proyects() {
 
     const projects = [{
@@ -18,15 +17,9 @@ export default function Proyects() {
     },
     ];
 
-    const myRef = useRef(null);
-
-  // Luego, puedes usar myRef para desplazarte a la sección de proyectos
-  const executeScroll = () => myRef.current.scrollIntoView({ behavior: 'smooth' });
-
     return(
-        
-        <div className=" section lg:max-w-4xl md:max-w-2xl container mx-auto p-5 mt-20 flex flex-col gap-y-16">
-            <h2  ref={myRef} className=" flex items-center text-3xl font-semibold gap-x-3 text-black/80 dark:text-white" id="proyectos">Proyectos</h2>
+        <div id="proyectos" className="section lg:max-w-4xl md:max-w-2xl container mx-auto p-5 mt-20 flex flex-col gap-y-16">
+            <h2 className="flex items-center text-3xl font-semibold gap-x-3 text-black/80 dark:text-white">Proyectos</h2>
             {projects.map(({ image, title, description, tags, link, github }) => (
                 <article className="flex flex-col space-x-0 space-y-8 group md:flex-row md:space-x-8 md:space-y-0">
                     <div className="w-full md:w-1/2">

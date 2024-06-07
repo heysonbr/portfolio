@@ -3,20 +3,23 @@ import Navbar from '../components/navbar.jsx';
 import Description from '../components/description.jsx';
 import Proyects from '../components/proyects.jsx';
 import Stack from '../components/stack.jsx';
+import Layout from '../components/layout.jsx';
 ---
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>HeysonBR</title>
-	</head>
-	<body class="bg-gradient-to-r from-slate-900 to-slate-700">
-		<Navbar />
-		<Description />
-		<Proyects />
-		<Stack />
-	</body>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>HeysonBR</title>
+  </head>
+  <body class="bg-gradient-to-r from-slate-900 to-slate-700">
+    <Layout>
+      <Navbar />
+      <Description />
+      <Proyects />
+      <Stack />
+    </Layout>
+  </body>
 </html>
