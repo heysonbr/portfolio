@@ -15,7 +15,7 @@ export default function descipcion() {
         />
         {/* <a className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mt-5  h-10 ml-3  "> 
                 Disponible para trabajar</a> */}
-        <a class="flex items-center transition md:justify-center md:hover:scale-105" href="https://www.linkedin.com/in/heyson-br/">         
+        <a className="flex items-center transition md:justify-center md:hover:scale-105" href="https://www.linkedin.com/in/heyson-br/">         
         <div class="flex items-center ">
           <span class="relative inline-flex overflow-hidden rounded-full p-[1px]">
             <span class="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#51E4B8_0%,#21554E_50%,#51E4B8_100%)]"></span>
@@ -31,9 +31,9 @@ export default function descipcion() {
       <p className="text-lg  mt-5 text-white">+1 Año experiencia. <strong className="text-purple-300">Full Stack Developer</strong> de Nicaragua, residiendo en Mallorca 🇪🇸. 
       Especializado en el desarrollo de aplicaciones web únicas.</p>
 
-      <div className="pt-7">
-        <a className=" text-white rounded-full w-full bg-gray-800 py-1 px-3 border-grey border border-solid mr-1" href="mailto:heysonbr@gmail.com"> Contáctame </a>
-        <a className="text-white rounded-full w-full bg-gray-800 py-1 px-3 border-grey border border-solid m-1" href="https://www.linkedin.com/in/heyson-br/"> Linkedin </a>
+      <div className="pt-7 flex ">
+        <a className="flex text-white rounded-full w-auto bg-gray-800 py-1 px-2 border-grey border border-solid my-1" href="mailto:heysonbr@gmail.com"> <Gmail className="pt-1 mr-1"/> Contáctame </a>
+        <a className="flex text-white rounded-full w-auto bg-gray-800 py-1 px-3 border-grey border border-solid m-1" href="https://www.linkedin.com/in/heyson-br/"> <LinkedIn className="mt-1 mr-1"/> Linkedin </a>
         </div>          
 
     </div>
