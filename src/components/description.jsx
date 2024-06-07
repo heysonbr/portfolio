@@ -32,7 +32,7 @@ export default function descipcion() {
       Especializado en el desarrollo de aplicaciones web únicas.</p>
 
       <div className="pt-7">
-        <a className="text-white rounded-full w-full bg-gray-800 py-1 px-3 border-grey border border-solid mr-1" href="mailto:heysonbr@gmail.com"> Contáctame </a>
+        <a className=" text-white rounded-full w-full bg-gray-800 py-1 px-3 border-grey border border-solid mr-1" href="mailto:heysonbr@gmail.com"> Contáctame </a>
         <a className="text-white rounded-full w-full bg-gray-800 py-1 px-3 border-grey border border-solid m-1" href="https://www.linkedin.com/in/heyson-br/"> Linkedin </a>
         </div>          
 
