@@ -30,7 +30,10 @@ export default function stack() {
       <h2 className="flex items-center text-3xl font-semibold gap-x-3 text-black/80 dark:text-white">
         Habilidades
       </h2>
-      <div className="mt-14 backdrop-blur-sm bg-white/10 w-auto h-auto rounded-xl flex justify-around content-center">
+      <div className="mt-14 backdrop-blur-sm bg-white/10 w-auto h-auto rounded-xl flex justify-around content-cente  ">
+
+        
+        
         <div className="p-5 ">
           
           <h4 className="text-xl font-bold text-gray-700 dark:text-gray-100">
