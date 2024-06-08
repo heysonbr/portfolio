@@ -6,7 +6,7 @@ import Gmail from "./icons/email";
 
 export default function descipcion() {
   return (
-    <div className="container mx-auto p-5 mt-20 lg:max-w-4xl md:max-w-2xl">
+    <div className="container mx-auto p-5 mt-20 lg:max-w-4xl md:max-w-2xl" id="sobre-mi">
       <div className="flex">
         <img
           src="/avatar.png"
@@ -27,13 +27,13 @@ export default function descipcion() {
         </a>
       </div>
 
-      <h1 className="text-4xl font-bold pt-5 text-white">Hola, soy Heyson</h1>
-      <p className="text-lg  mt-5 text-white">+1 Año experiencia. <strong className="text-purple-300">Full Stack Developer</strong> de Nicaragua, residiendo en Mallorca 🇪🇸. 
+      <h1 className="text-4xl font-bold pt-5 ">Hola, soy Heyson</h1>
+      <p className="text-lg  mt-5 ">+1 Año experiencia. <strong className="text-purple-300">Full Stack Developer</strong> de Nicaragua, residiendo en Mallorca 🇪🇸. 
       Especializado en el desarrollo de aplicaciones web únicas.</p>
 
       <div className="pt-7 flex ">
-        <a className="flex text-white rounded-full w-auto bg-gray-800 py-1 px-2 border-grey border border-solid my-1" href="mailto:heysonbr@gmail.com"> <Gmail className="pt-1 mr-1"/> Contáctame </a>
-        <a className="flex text-white rounded-full w-auto bg-gray-800 py-1 px-3 border-grey border border-solid m-1" href="https://www.linkedin.com/in/heyson-br/"> <LinkedIn className="mt-1 mr-1"/> Linkedin </a>
+        <a className="flex  rounded-full w-auto bg-gray-800 py-1 px-2 border-grey border border-solid my-1" href="mailto:heysonbr@gmail.com"> <Gmail className="pt-1 mr-1"/> Contáctame </a>
+        <a className="flex rounded-full w-auto bg-gray-800 py-1 px-3 border-grey border border-solid m-1" href="https://www.linkedin.com/in/heyson-br/"> <LinkedIn className="mt-1 mr-1"/> Linkedin </a>
         </div>          
 
     </div>
