@@ -1,3 +1,6 @@
+import Contributions from "./Contributions";
+
+
 export default function stack() {
     const habilities = {
         lenguajes: [

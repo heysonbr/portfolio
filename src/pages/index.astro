@@ -4,6 +4,9 @@ import Description from '../components/description.jsx';
 import Proyects from '../components/proyects.jsx';
 import Stack from '../components/stack.jsx';
 import Layout from './layout.astro'
+import Contributions from '../components/Contributions.jsx';
+import {SobreMi} from '../components/sobremi.jsx';
+
 ---
 
 
@@ -12,5 +15,8 @@ import Layout from './layout.astro'
       <Description />
       <Proyects />
       <Stack />
+      <Contributions client:load/>
+      <SobreMi />
+
 	</Layout>  
     
