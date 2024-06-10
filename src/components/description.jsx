@@ -1,13 +1,14 @@
 import LinkedIn from "./icons/linkedin";
 import Gmail from "./icons/email";
-
+import Cohete from "./cohete";
 
 
 
 export default function descipcion() {
   return (
     <div className="container mx-auto p-5 mt-20 lg:max-w-4xl md:max-w-2xl" id="sobre-mi">
-      <div className="flex">
+      <div className="flex justify-between">
+        <div className="flex items-center">
         <img
           src="/avatar.png"
           alt="heyson"
@@ -24,7 +25,10 @@ export default function descipcion() {
             </div>
           </span>
         </div>
+        
         </a>
+        </div>
+        <Cohete />   
       </div>
 
       <h1 className="text-4xl font-bold pt-5 ">Hola, soy Heyson</h1>
@@ -34,7 +38,8 @@ export default function descipcion() {
       <div className="pt-7 flex ">
         <a className="flex  rounded-full w-auto bg-gray-800 py-1 px-2 border-grey border border-solid my-1" href="mailto:heysonbr@gmail.com"> <Gmail className="pt-1 mr-1"/> Contáctame </a>
         <a className="flex rounded-full w-auto bg-gray-800 py-1 px-3 border-grey border border-solid m-1" href="https://www.linkedin.com/in/heyson-br/"> <LinkedIn className="mt-1 mr-1"/> Linkedin </a>
-        </div>          
+        </div>     
+         
 
     </div>
   );
