@@ -12,7 +12,7 @@ export default function descipcion() {
           <img
             src="/avatar.png"
             alt="heyson"
-            className="rounded-full w-20 h-20 pr-2 mb-2 md:mb-0 m-5 md:pr-2 md:order-2"
+            className="rounded-full w-20 h-20 pr-2 mb-2 mt-3 md:mb-0 md:m-3 md:pr-2 md:order-2"
           />
           <a className="flex items-center transition md:justify-center md:hover:scale-105 md:order-1" href="https://www.linkedin.com/in/heyson-br/">         
             <div className="flex items-center ">
