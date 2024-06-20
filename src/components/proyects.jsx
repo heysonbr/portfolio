@@ -8,16 +8,16 @@ export default function Proyects() {
     const projects = [{
         title: "BeatBooK",
         description:
-          "BeatBooK es una aplicación web que permite a los usuarios buscar eventos musicales en su ciudad, ver detalles de los eventos y comprar boletos. Los usuarios pueden registrarse, iniciar sesión, inscribirse a las eventos y comentarlos.",
+            "BeatBooK es una aplicación web que permite a los usuarios buscar eventos musicales en su ciudad, ver detalles de los eventos y comprar boletos. Los usuarios pueden registrarse, iniciar sesión, inscribirse a las eventos y comentarlos.",
         link: "https://svgl.vercel.app/",
         github: "https://github.com/heysonbr/BeatBooK",
         image: "/beatbook.png",
-        tags: [ { name: 'React', class: 'bg-blue-700 text-white', icon: React},{name: 'Bootstrap', class: 'bg-purple-300 text-white', icon: Bootstrap },{name: 'MySQL', class: 'bg-yellow-300 text-white', icon: MySQL },{name:'Python', class:'bg-green-500 text-white', icon: Python,}],
-        
+        tags: [{ name: 'React', class: 'bg-blue-700 text-white', icon: React }, { name: 'Bootstrap', class: 'bg-purple-300 text-white', icon: Bootstrap }, { name: 'MySQL', class: 'bg-yellow-300 text-white', icon: MySQL }, { name: 'Python', class: 'bg-green-500 text-white', icon: Python, }],
+
     },
     ];
 
-    return(
+    return (
         <div id="proyectos" className="section lg:max-w-4xl md:max-w-2xl container mx-auto p-5 mt-20 flex flex-col gap-y-16">
             <h2 className="flex items-center text-3xl font-semibold gap-x-3 text-black/80 dark:text-white">Proyectos</h2>
             {projects.map(({ image, title, description, tags, link, github }) => (
@@ -36,11 +36,9 @@ export default function Proyects() {
                             <ul className="flex flex-row mb-2 gap-x-2">
                                 {tags.map((tag) => (
                                     <li>
-                                        <span
-                                            className={`flex gap-x-2 rounded-full text-xs ${tag.class} py-1 px-2 `}
-                                        >
+                                        <span className={`flex gap-x-2 rounded-full text-xs ${tag.class} py-1 px-2 `}>
                                             <tag.icon className="size-4" />
-                                            {tag.name}
+                                            <span className="hidden sm:inline">{tag.name}</span>
                                         </span>
                                     </li>
                                 ))}
@@ -49,16 +47,16 @@ export default function Proyects() {
                             <div className="mt-2 text-gray-700 dark:text-gray-400">{description}</div>
                             <footer className="flex items-end justify-start mt-4 gap-x-4">
                                 {github && (
-                                    <a href={github}   className="inline-flex items-center justify-center gap-2 px-3 py-2 space-x-2 text-base text-white transition bg-gray-800 border border-gray-600 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-800 hover:border-gray-900 group max-w-fit rounded-xl hover:text-white focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black"
+                                    <a href={github} className="inline-flex items-center justify-center gap-2 px-3 py-2 space-x-2 text-base text-white transition bg-gray-800 border border-gray-600 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-800 hover:border-gray-900 group max-w-fit rounded-xl hover:text-white focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black"
                                     >
-                                        
+
                                         Código
                                     </a>
                                 )}
                                 {link && (
-                                    <a href={link}   className="inline-flex items-center justify-center gap-2 px-3 py-2 space-x-2 text-base text-white transition bg-gray-800 border border-gray-600 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-800 hover:border-gray-900 group max-w-fit rounded-xl hover:text-white focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black"
+                                    <a href={link} className="inline-flex items-center justify-center gap-2 px-3 py-2 space-x-2 text-base text-white transition bg-gray-800 border border-gray-600 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-800 hover:border-gray-900 group max-w-fit rounded-xl hover:text-white focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black"
                                     >
-                                        
+
                                         Vista previa
                                     </a>
                                 )}
