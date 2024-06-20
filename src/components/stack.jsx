@@ -34,8 +34,8 @@ export default function stack() {
         Habilidades
       </h2>
         <div className="flex items-center mt-20"> 
-       <span class="relative inline-flex overflow-hidden rounded-xl p-[2px] ">
-            <span class="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#d7b4fe_0%,#7f2dda_50%,#d7b4fe_100%)] "></span>
+       <span className="relative inline-flex overflow-hidden rounded-xl p-[2px] ">
+            <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#d7b4fe_0%,#7f2dda_50%,#d7b4fe_100%)] "></span>
       <div className="  backdrop-blur-sm bg-gray-800 w-auto h-auto rounded-xl flex justify-around content-cente z-5 ">
 
         
