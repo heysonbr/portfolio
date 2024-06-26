@@ -5,6 +5,7 @@
 
 export default function Navbar() {
       return (
+        <div>
         <nav className="container fixed top-0 left-0 right-0 w-80 mx-auto flex justify-center p-1 my-2 rounded-full backdrop-blur-sm bg-white/30  z-10" >
           
           <div className="links  ">
@@ -13,6 +14,12 @@ export default function Navbar() {
             {/* <a href="/create" className="px-2 hover:text-purple-300">Sobre mí</a> */}
             <a href="mailto:heysonbr@gmail.com" className="px-2 hover:text-purple-300">Contacto</a>
           </div>
+          
         </nav>
+        <nav className="text-white fixed top-0 right-4 rounded-full backdrop-blur-sm bg-white/30  z-10 my-2 p-1 px-2">
+          <a>EN</a>
+        </nav>
+        </div>
+        
       );
     }
