@@ -4,7 +4,7 @@ import Cohete from "./cohete";
 import {useState} from "react";
 
 
-export default function descipcion() {
+export default function descipcion( descripcion ) {
 
 
   
@@ -23,7 +23,7 @@ export default function descipcion() {
               <span className="relative inline-flex overflow-hidden rounded-full p-[1px]">
                 <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#d7b4fe_0%,#7f2dda_50%,#d7b4fe_100%)]"></span>
                 <div className="inline-flex items-center justify-center w-full px-3 py-1 text-sm text-green-800 bg-green-100 rounded-full cursor-pointer dark:bg-gray-800 dark:text-white/80 backdrop-blur-3xl whitespace-nowrap">
-                  Disponible para Trabajar
+                 {descripcion.disponible}
                 </div>
               </span>
             </div>
@@ -32,7 +32,7 @@ export default function descipcion() {
         <Cohete className="order-1 md:order-2"/>   
       </div>
 
-      <h1 className="text-4xl font-bold pt-5 ">Hola, soy Heyson</h1>
+      <h1 className="text-4xl font-bold pt-5 ">{descripcion.hola}</h1>
       <p className="text-lg  mt-5 ">+1 Año experiencia. <strong className="text-purple-300">Full Stack Developer</strong> de Nicaragua, residiendo en Mallorca 🇪🇸. 
       Especializado en el desarrollo de aplicaciones web únicas.</p>
 
