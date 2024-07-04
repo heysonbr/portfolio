@@ -2,7 +2,7 @@
 import Navbar from '../components/navbar.astro';
 import Footer from '../components/Footer.astro';
 
-export let href;
+
 ---
 
 <html lang="en">
@@ -14,7 +14,7 @@ export let href;
     <title>{Astro.props.title}</title>
   </head>
   <body class="bg-gradient-to-b from-black to-slate-700 text-white">
-    <Navbar href={href}/>
+    <Navbar/>
     <main>
       <slot /> <!-- Aquí es donde se renderizará el contenido de la página -->
     </main>

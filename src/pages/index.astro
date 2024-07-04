@@ -6,16 +6,13 @@ import Stack from '../components/stack.jsx';
 import Layout from './layout.astro'
 import Contributions from '../components/Contributions.jsx';
 import {SobreMi} from '../components/sobremi.jsx';
-import { getRelativeLocaleUrl } from 'astro:i18n';
-export let locale;
-let otherLocale = locale === 'en' ? 'es' : 'en';
-let href = getRelativeLocaleUrl(otherLocale, 'index');
+
 
 
 ---
 
    
-  <Layout title="HeysonBR"  locale={locale} href={href}>
+  <Layout title="HeysonBR"  >
       
       <Description client:load disponible="Disponible para Trabajar" hola="Hola, soy Heyson"/>
       <Proyects />
