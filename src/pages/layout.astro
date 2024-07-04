@@ -1,8 +1,10 @@
 ---
-import Navbar from '../components/navbar.jsx';
+import Navbar from '../components/navbar.astro';
 import Footer from '../components/Footer.astro';
 
+export let href;
 ---
+
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -12,13 +14,11 @@ import Footer from '../components/Footer.astro';
     <title>{Astro.props.title}</title>
   </head>
   <body class="bg-gradient-to-b from-black to-slate-700 text-white">
-   
-    <Navbar />
+    <Navbar href={href}/>
     <main>
       <slot /> <!-- Aquí es donde se renderizará el contenido de la página -->
     </main>
     <Footer/>
-    
   </body>
 </html>
 

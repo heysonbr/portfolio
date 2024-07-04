@@ -7,4 +7,9 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   integrations: [react(), tailwind()],
   renderers: ['@astrojs/renderer-react'],
+  i18n: {
+    defaultLocale: "es",
+    locales: ["es", "en", ],
+    
+  }
 });

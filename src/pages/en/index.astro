@@ -1,0 +1,22 @@
+---
+import Navbar from '../../components/navbar.astro';
+import Description from '../../components/description.jsx';
+import Proyects from '../../components/proyects.jsx';
+import Stack from '../../components/stack.jsx';
+import Layout from '../layout.astro'
+import Contributions from '../../components/Contributions.jsx';
+import {SobreMi} from '../../components/sobremi.jsx';
+
+---
+
+   
+  <Layout title="HeysonBR" >
+      
+      <Description client:load disponible="Open to Work" hola="Hi, i'm Heyson"/>
+      <Proyects />
+      <Stack />
+      <Contributions client:load/>
+      <SobreMi />
+
+	</Layout>  
+    
