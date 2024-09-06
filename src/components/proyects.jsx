@@ -9,7 +9,7 @@ export default function Proyects() {
         title: "BeatBooK",
         description:
             "BeatBooK es una aplicación web que permite a los usuarios buscar eventos musicales en su ciudad, ver detalles de los eventos y comprar boletos. Los usuarios pueden registrarse, iniciar sesión, inscribirse a las eventos y comentarlos.",
-        link: "https://svgl.vercel.app/",
+        // link: "https://svgl.vercel.app/",
         github: "https://github.com/heysonbr/BeatBooK",
         image: "/beatbook.png",
         tags: [{ name: 'React', class: 'bg-blue-700 text-white', icon: React }, { name: 'Bootstrap', class: 'bg-purple-300 text-white', icon: Bootstrap }, { name: 'MySQL', class: 'bg-yellow-300 text-white', icon: MySQL }, { name: 'Python', class: 'bg-green-500 text-white', icon: Python, }],
