@@ -42,8 +42,8 @@ export default function descipcion(descripcion) {
 
 
       <div className="pt-7 flex ">
-        <a className="flex  rounded-full w-auto bg-gray-800 py-1 px-2 border-grey border border-solid my-1" href="mailto:heysonbr@gmail.com"> <Gmail className="pt-1 mr-1" /> Contáctame </a>
-        <a className="flex rounded-full w-auto bg-gray-800 py-1 px-3 border-grey border border-solid m-1" href="https://www.linkedin.com/in/heyson-br/"> <LinkedIn className="mt-1 mr-1" /> Linkedin </a>
+        <a className="flex  rounded-full w-auto bg-gray-800 py-1 px-2 border-grey border border-solid my-1 hover:border-transparent" href="mailto:heysonbr@gmail.com"> <Gmail className="pt-1 mr-1" /> Contáctame </a>
+        <a className="flex rounded-full w-auto bg-gray-800 py-1 px-3 border-grey border border-solid m-1 hover:border-transparent" href="https://www.linkedin.com/in/heyson-br/"> <LinkedIn className="mt-1 mr-1" /> Linkedin </a>
       </div>
 
 
