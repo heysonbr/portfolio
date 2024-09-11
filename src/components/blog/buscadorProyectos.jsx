@@ -38,6 +38,7 @@ export default function Buscador() {
         { name: "Python", class: "bg-green-500 text-white", icon: Python },
       ],
     },
+
     // ...otros proyectos
   ];
 
@@ -52,7 +53,7 @@ export default function Buscador() {
     : projects;
 
   return (
-    <div className="container mx-auto md:max-w-2xl lg:max-w-4xl2  xl:max-w-7xl  item-center justify-center text-center h-full flex flex-col gap-4 mt-8">
+    <div className="container mx-auto md:max-w-2xl lg:max-w-4xl  xl:max-w-7xl  item-center justify-center text-center h-full flex flex-col gap-4 mt-8">
       <div className="flex flex-col gap-2 items-center justify-center">
         <div className="flex gap-2">
           {technologies.map((tech) => (
@@ -77,11 +78,30 @@ export default function Buscador() {
         </div>
       </div>
 
-      <div className="grid grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
         {filteredProjects.map((project) => (
-          <div className="h-64 w-72 bg-blue-900" key={project.title}>
-            <h2 className="text-2xl font-semibold "> {project.title}</h2>
-            {/* Renderizar otros detalles del proyecto */}
+          <div
+            className="h-64 w-72 lg:w-64 rounded-lg py-2 text-start"
+            key={project.title}
+          >
+            <img
+              className="rounded-lg w-full  transition duration-500 hover:scale-110 "
+              src={project.image}
+              alt={project.title}
+            />
+            <h2 className="text-xl font-semibold "> {project.title}</h2>
+            <ul className="flex flex-row mb-2 gap-x-2 ">
+              {project.tags.map((tag) => (
+                <li key={tag.name}>
+                  <span
+                    className={`flex gap-x-2 rounded-full text-xs ${tag.class} py-1 px-2 `}
+                  >
+                    <tag.icon className="size-4" />
+                    {/* <span className="hidden sm:inline">{tag.name}</span> */}
+                  </span>
+                </li>
+              ))}
+            </ul>
           </div>
         ))}
       </div>
