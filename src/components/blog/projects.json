@@ -2,7 +2,7 @@
   {
     "title": "BeatBooK",
     "description": "BeatBooK es una aplicación web que permite a los usuarios buscar eventos musicales en su ciudad, ver detalles de los eventos y comprar boletos. Los usuarios pueden registrarse, iniciar sesión, inscribirse a la eventos y comentarlos.",
-    "github": "",
+    "github": "https://github.com/heysonbr/BeatBooK",
     "image": "/beatbook.png",
     "tags": [
       { "name": "React", "class": "bg-blue-700 text-white", "icon": "React" },
@@ -26,7 +26,7 @@
         "class": "bg-green-500 text-white",
         "icon": "Python"
       },
-      { "name": "Html", "class": "bg-white text-white", "icon": "Html" }
+      { "name": "Html", "class": "bg-blue-700 text-white", "icon": "Html" }
     ]
   }
 ]
