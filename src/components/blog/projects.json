@@ -5,13 +5,18 @@
     "github": "https://github.com/heysonbr/BeatBooK",
     "image": "/beatbook.png",
     "tags": [
-      { "name": "React", "class": "bg-blue-700 text-white", "icon": "React" },
+      { "name": "React", "icon": "React" },
       {
         "name": "Bootstrap",
-        "class": "bg-purple-300 ",
+
         "icon": "Bootstrap"
       },
-      { "name": "MySQL", "class": "bg-yellow-300 text-white", "icon": "MySQL" }
+      {
+        "name": "Python",
+
+        "icon": "Python"
+      },
+      { "name": "MySQL", "icon": "MySQL" }
     ]
   },
   {
@@ -20,13 +25,13 @@
     "github": "dadasdasd",
     "image": "/beatbook.png",
     "tags": [
-      { "name": "MySQL", "class": "bg-yellow-300 text-white", "icon": "MySQL" },
+      { "name": "MySQL", "icon": "MySQL" },
       {
         "name": "Python",
-        "class": "bg-green-500 text-white",
+     
         "icon": "Python"
       },
-      { "name": "Html", "class": "bg-green-500 text-white", "icon": "Html" }
+      { "name": "Html","icon": "Html" }
     ]
   }
 ]

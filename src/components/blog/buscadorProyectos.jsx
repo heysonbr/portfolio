@@ -40,7 +40,23 @@ export default function Buscador() {
     return { ...project, tags };
   });
 
-  const technologies = ["React", "Bootstrap", "MySQL", "Python"];
+  function getColorClass(tagName) {
+    switch (tagName) {
+      case "React":
+        return "bg-blue-700";
+      case "Bootstrap":
+        return "bg-purple-300";
+      case "MySQL":
+        return "bg-yellow-300";
+      case "Python":
+        return "bg-green-500";
+      // Agrega más casos si necesitas más colores
+      default:
+        return "bg-white";
+    }
+  }
+
+  const technologies = ["React","NextJS","Astro","Python"];
 
   const filteredProjects = search
     ? projects.filter((project) =>
@@ -79,7 +95,7 @@ export default function Buscador() {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
         {filteredProjects.map((project) => (
           <div
-            className="h-64 w-72 lg:w-64 rounded-lg py-2 text-start transition duration-500 hover:scale-110"
+            className="h-auto w-72 lg:w-64 rounded-lg py-2 text-start transition duration-500 hover:scale-110"
             key={project.title}
           >
             <img
@@ -88,13 +104,12 @@ export default function Buscador() {
               alt={project.title}
             />
             <h2 className="text-xl font-semibold "> {project.title}</h2>
+            <p className="text-sm" >{project.description}</p>
             <ul className="flex flex-row mb-2 gap-x-2 ">
               {project.tags.map((tag) => (
                 <li key={tag.name}>
                   <span
-                    className={`flex gap-x-2 rounded-full text-xs ${tag.class
-                      .split(" ")
-                      .join(" ")} py-1 px-2 `}
+                    className={`flex gap-x-2 rounded-full text-xs ${getColorClass(tag.name)} py-1 px-2 `}
                   >
                     <tag.icon className="h-4 w-4" />
                     {/* <span className="hidden sm:inline">{tag.name}</span> */}
