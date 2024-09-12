@@ -92,9 +92,11 @@ export default function Buscador() {
               {project.tags.map((tag) => (
                 <li key={tag.name}>
                   <span
-                    className={`flex gap-x-2 rounded-full text-xs ${tag.class} py-1 px-2 `}
+                    className={`flex gap-x-2 rounded-full text-xs ${tag.class
+                      .split(" ")
+                      .join(" ")} py-1 px-2 `}
                   >
-                    <tag.icon className="size-4" />
+                    <tag.icon className="h-4 w-4" />
                     {/* <span className="hidden sm:inline">{tag.name}</span> */}
                   </span>
                 </li>
