@@ -6,6 +6,7 @@ import React from "../icons/react";
 import Bootstrap from "../icons/bootstrap";
 import MySQL from "../icons/mysql";
 import Python from "../icons/python";
+import Html from "../icons/html";
 
 export default function Buscador() {
   const [search, setSearch] = useState("");
@@ -27,6 +28,9 @@ export default function Buscador() {
           break;
         case "Python":
           icon = Python;
+          break;
+        case "Html":
+          icon = Html;
           break;
         default:
           icon = null;

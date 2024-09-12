@@ -21,7 +21,12 @@
     "image": "/beatbook.png",
     "tags": [
       { "name": "MySQL", "class": "bg-yellow-300 text-white", "icon": "MySQL" },
-      { "name": "Python", "class": "bg-green-500 text-white", "icon": "Python" }
+      {
+        "name": "Python",
+        "class": "bg-green-500 text-white",
+        "icon": "Python"
+      },
+      { "name": "Html", "class": "bg-white text-white", "icon": "Html" }
     ]
   }
 ]
