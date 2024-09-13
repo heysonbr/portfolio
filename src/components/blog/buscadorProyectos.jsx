@@ -56,7 +56,7 @@ export default function Buscador() {
     }
   }
 
-  const technologies = ["React","NextJS","Astro","Python"];
+  const technologies = ["React", "NextJS", "Astro", "Python"];
 
   const filteredProjects = search
     ? projects.filter((project) =>
@@ -103,13 +103,15 @@ export default function Buscador() {
               src={project.image}
               alt={project.title}
             />
-            <h2 className="text-xl font-semibold "> {project.title}</h2>
-            <p className="text-sm" >{project.description}</p>
-            <ul className="flex flex-row mb-2 gap-x-2 ">
+            <h2 className="text-xl font-semibold mt-2"> {project.title}</h2>
+            <p className="text-sm mt-2">{project.description}</p>
+            <ul className="flex flex-row mb-2 gap-x-2 mt-4">
               {project.tags.map((tag) => (
                 <li key={tag.name}>
                   <span
-                    className={`flex gap-x-2 rounded-full text-xs ${getColorClass(tag.name)} py-1 px-2 `}
+                    className={`flex gap-x-2 rounded-full text-xs ${getColorClass(
+                      tag.name
+                    )} py-1 px-2 `}
                   >
                     <tag.icon className="h-4 w-4" />
                     {/* <span className="hidden sm:inline">{tag.name}</span> */}
@@ -117,7 +119,7 @@ export default function Buscador() {
                 </li>
               ))}
             </ul>
-            <footer>
+            <footer className="mt-4">
               {project.github && (
                 <a
                   className="border border-gray-500 rounded-lg p-1 bg-slate-900 hover:border-transparent"
