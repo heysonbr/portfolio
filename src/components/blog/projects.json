@@ -31,5 +31,15 @@
       { "name": "Firebase", "icon": "Firebase" },
       { "name": "Tailwind", "icon": "Tailwind" }
     ]
+  },
+  {
+    "title": "StarWars-BLog",
+    "description": "StarWars-BLog es una aplicación web que permite a los usuarios buscar personajes de Star Wars, ver detalles de los personajes y guardarlos en favoritos. ",
+    "github": "https://github.com/heysonbr/Starwars-blog-reading-list",
+    "image": "/starwars.png",
+    "tags": [
+      { "name": "React", "icon": "React" },
+      { "name": "Bootstrap", "icon": "Bootstrap" }
+    ]
   }
 ]
