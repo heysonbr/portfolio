@@ -73,9 +73,9 @@ export default function Buscador() {
       case "Firebase":
         return "bg-white";
       case "Tailwind":
-        return "bg-black";
+        return "bg-slate-600";
       case "Expo":
-        return "bg-white";
+        return "bg-purple-500";
       // Agrega más casos si necesitas más colores
       default:
         return "bg-white";
@@ -130,8 +130,8 @@ export default function Buscador() {
               alt={project.title}
             />
             <h2 className="text-xl font-semibold mt-2"> {project.title}</h2>
-            <p className="text-sm mt-2">{project.description}</p>
-            <ul className="flex flex-row mb-2 gap-x-2 mt-4">
+            <p className="text-sm mt-2 h-32">{project.description}</p>
+            <ul className="flex flex-row mb-2 gap-x-2 mt-6">
               {project.tags.map((tag) => (
                 <li key={tag.name}>
                   <span
@@ -145,13 +145,21 @@ export default function Buscador() {
                 </li>
               ))}
             </ul>
-            <footer className="mt-4">
+            <footer className="mt-4 ">
               {project.github && (
                 <a
-                  className="border border-gray-500 rounded-lg p-1 bg-slate-900 hover:border-transparent"
+                  className="border border-gray-500 rounded-lg p-1 m-1 bg-slate-900 hover:border-transparent"
                   href={project.github}
                 >
                   Codigo
+                </a>
+              )}
+              {project.youtube && (
+                <a
+                  className="border border-gray-500 rounded-lg p-1 m-1 bg-slate-900 hover:border-transparent"
+                  href={project.youtube}
+                >
+                  Video
                 </a>
               )}
             </footer>

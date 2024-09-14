@@ -20,25 +20,11 @@
     ]
   },
   {
-    "title": "FFMPEG",
-    "description": "FFMPEG es una aplicación web que permite a los usuarios buscar eventos musicales en su ciudad, ver detalles de los eventos y comprar boletos. Los usuarios pueden registrarse, iniciar sesión, inscribirse a la eventos y comentarlos.",
-    "github": "dadasdasd",
-    "image": "/beatbook.png",
-    "tags": [
-      { "name": "MySQL", "icon": "MySQL" },
-      {
-        "name": "Python",
-
-        "icon": "Python"
-      },
-      { "name": "Html", "icon": "Html" }
-    ]
-  },
-  {
     "title": "BibliotecaNative",
     "description": "Es una Aplicación mutiplataforma que permite a los usuarios buscar libros, ver detalles de los libros, editarlos y borrarlos.",
     "github": "https://github.com/heysonbr/biblioteca-native",
-    "image": "/beatbook.png",
+    "image": "/bibliotecaNative.png",
+    "youtube": "https://www.youtube.com/watch?v=TS8mVxlb6-k",
     "tags": [
       { "name": "ReactNative", "icon": "ReactNative" },
       { "name": "Expo", "icon": "Expo" },
