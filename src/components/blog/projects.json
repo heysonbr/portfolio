@@ -28,10 +28,21 @@
       { "name": "MySQL", "icon": "MySQL" },
       {
         "name": "Python",
-     
+
         "icon": "Python"
       },
-      { "name": "Html","icon": "Html" }
+      { "name": "Html", "icon": "Html" }
+    ]
+  },
+  {
+    "title": "BibliotecaNative",
+    "description": "BeatBooK es una aplicación web que permite a los usuarios buscar eventos musicales en su ciudad, ver detalles de los eventos y comprar boletos. Los usuarios pueden registrarse, iniciar sesión, inscribirse a la eventos y comentarlos.",
+    "github": "https://github.com/heysonbr/biblioteca-native",
+    "image": "/beatbook.png",
+    "tags": [
+      { "name": "ReactNative", "icon": "ReactNative" },
+      { "name": "Firebase", "icon": "Firebase" },
+      { "name": "Tailwind", "icon": "Tailwind" }
     ]
   }
 ]

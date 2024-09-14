@@ -7,6 +7,9 @@ import Bootstrap from "../icons/bootstrap";
 import MySQL from "../icons/mysql";
 import Python from "../icons/python";
 import Html from "../icons/html";
+import ReactNative from "../icons/reactNative";
+import Firebase from "../icons/firebase";
+import Tailwind from "../icons/tailwind";
 
 export default function Buscador() {
   const [search, setSearch] = useState("");
@@ -32,6 +35,15 @@ export default function Buscador() {
         case "Html":
           icon = Html;
           break;
+        case "ReactNative":
+          icon = ReactNative;
+          break;
+        case "Firebase":
+          icon = Firebase;
+          break;
+        case "Tailwind":
+          icon = Tailwind;
+          break;
         default:
           icon = null;
       }
@@ -50,6 +62,14 @@ export default function Buscador() {
         return "bg-yellow-300";
       case "Python":
         return "bg-green-500";
+      case "Html":
+        return "bg-red-600";
+      case "ReactNative":
+        return "bg-black";
+      case "Firebase":
+        return "bg-white";
+      case "Tailwind":
+        return "bg-black";
       // Agrega más casos si necesitas más colores
       default:
         return "bg-white";
