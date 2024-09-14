@@ -21,7 +21,7 @@
   },
   {
     "title": "BibliotecaNative",
-    "description": "Es una Aplicación mutiplataforma que permite a los usuarios buscar libros, ver detalles de los libros, editarlos y borrarlos.",
+    "description": "Es una Aplicación mutiplataforma que permite a los usuarios buscar libros, ver detalles de los libros, editarlos y borrarlos. Mi primera practica con React Native y Expo.",
     "github": "https://github.com/heysonbr/biblioteca-native",
     "image": "/bibliotecaNative.png",
     "youtube": "https://www.youtube.com/watch?v=TS8mVxlb6-k",
