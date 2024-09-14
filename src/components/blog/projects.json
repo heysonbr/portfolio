@@ -36,11 +36,12 @@
   },
   {
     "title": "BibliotecaNative",
-    "description": "BeatBooK es una aplicación web que permite a los usuarios buscar eventos musicales en su ciudad, ver detalles de los eventos y comprar boletos. Los usuarios pueden registrarse, iniciar sesión, inscribirse a la eventos y comentarlos.",
+    "description": "Es una Aplicación mutiplataforma que permite a los usuarios buscar libros, ver detalles de los libros, editarlos y borrarlos.",
     "github": "https://github.com/heysonbr/biblioteca-native",
     "image": "/beatbook.png",
     "tags": [
       { "name": "ReactNative", "icon": "ReactNative" },
+      { "name": "Expo", "icon": "Expo" },
       { "name": "Firebase", "icon": "Firebase" },
       { "name": "Tailwind", "icon": "Tailwind" }
     ]

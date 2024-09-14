@@ -10,6 +10,7 @@ import Html from "../icons/html";
 import ReactNative from "../icons/reactNative";
 import Firebase from "../icons/firebase";
 import Tailwind from "../icons/tailwind";
+import Expo from "../icons/expo";
 
 export default function Buscador() {
   const [search, setSearch] = useState("");
@@ -44,6 +45,9 @@ export default function Buscador() {
         case "Tailwind":
           icon = Tailwind;
           break;
+        case "Expo":
+          icon = Expo;
+          break;
         default:
           icon = null;
       }
@@ -70,6 +74,8 @@ export default function Buscador() {
         return "bg-white";
       case "Tailwind":
         return "bg-black";
+      case "Expo":
+        return "bg-white";
       // Agrega más casos si necesitas más colores
       default:
         return "bg-white";
@@ -129,7 +135,7 @@ export default function Buscador() {
               {project.tags.map((tag) => (
                 <li key={tag.name}>
                   <span
-                    className={`flex gap-x-2 rounded-full text-xs ${getColorClass(
+                    className={`flex gap-x-2 rounded-full text-xs h-6 w-8 items-center justify-center ${getColorClass(
                       tag.name
                     )} py-1 px-2 `}
                   >
