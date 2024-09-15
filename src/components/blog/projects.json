@@ -5,28 +5,41 @@
     "github": "https://github.com/heysonbr/BeatBooK",
     "image": "/beatbook.png",
     "tags": [
-      { "name": "React", "class": "bg-blue-700 text-white", "icon": "React" },
+      { "name": "React", "icon": "React" },
       {
         "name": "Bootstrap",
-        "class": "bg-purple-300 text-white",
+
         "icon": "Bootstrap"
       },
-      { "name": "MySQL", "class": "bg-yellow-300 text-white", "icon": "MySQL" }
+      {
+        "name": "Python",
+
+        "icon": "Python"
+      },
+      { "name": "MySQL", "icon": "MySQL" }
     ]
   },
   {
-    "title": "FFMPEG",
-    "description": "FFMPEG es una aplicación web que permite a los usuarios buscar eventos musicales en su ciudad, ver detalles de los eventos y comprar boletos. Los usuarios pueden registrarse, iniciar sesión, inscribirse a la eventos y comentarlos.",
-    "github": "dadasdasd",
-    "image": "/beatbook.png",
+    "title": "BibliotecaNative",
+    "description": "Es una Aplicación mutiplataforma que permite a los usuarios buscar libros, ver detalles de los libros, editarlos y borrarlos. Mi primera practica con React Native y Expo.",
+    "github": "https://github.com/heysonbr/biblioteca-native",
+    "image": "/bibliotecaNative.png",
+    "youtube": "https://www.youtube.com/watch?v=TS8mVxlb6-k",
     "tags": [
-      { "name": "MySQL", "class": "bg-yellow-300 text-white", "icon": "MySQL" },
-      {
-        "name": "Python",
-        "class": "bg-green-500 text-white",
-        "icon": "Python"
-      },
-      { "name": "Html", "class": "bg-blue-700 text-white", "icon": "Html" }
+      { "name": "ReactNative", "icon": "ReactNative" },
+      { "name": "Expo", "icon": "Expo" },
+      { "name": "Firebase", "icon": "Firebase" },
+      { "name": "Tailwind", "icon": "Tailwind" }
+    ]
+  },
+  {
+    "title": "StarWars-BLog",
+    "description": "StarWars-BLog es una aplicación web que permite a los usuarios buscar personajes de Star Wars, ver detalles de los personajes y guardarlos en favoritos. ",
+    "github": "https://github.com/heysonbr/Starwars-blog-reading-list",
+    "image": "/starwars.png",
+    "tags": [
+      { "name": "React", "icon": "React" },
+      { "name": "Bootstrap", "icon": "Bootstrap" }
     ]
   }
 ]
