@@ -82,7 +82,7 @@ export default function Buscador() {
     }
   }
 
-  const technologies = ["React", "NextJS", "Astro", "Python"];
+  const technologies = ["React","ReactNative", "NextJS", "Astro", "Python"];
 
   const filteredProjects = search
     ? projects.filter((project) =>
@@ -95,19 +95,22 @@ export default function Buscador() {
   return (
     <div className="container mx-auto md:max-w-2xl lg:max-w-4xl  xl:max-w-7xl  item-center justify-center text-center h-full flex flex-col gap-4 mt-8">
       <div className="flex flex-col gap-2 items-center justify-center">
-        <div className="flex gap-2">
-          {technologies.map((tech) => (
-            <button
-              className="border border-white rounded-lg p-1"
-              key={tech}
-              onClick={() => setSearch(tech)}
-            >
-              {tech}
-            </button>
-          ))}
+        <div>
+          <select
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            className="border border-gray-500 bg-slate-800 rounded-lg p-1"
+          >
+            <option value="">Mostrar todos</option>
+            {technologies.map((tech) => (
+              <option key={tech} value={tech}>
+                {tech}
+              </option>
+            ))}
+          </select>
         </div>
 
-        <div>
+        {/* <div>
           {" "}
           <button
             className="border border-white rounded-lg p-1 "
@@ -115,7 +118,7 @@ export default function Buscador() {
           >
             Mostrar todos
           </button>
-        </div>
+        </div> */}
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
