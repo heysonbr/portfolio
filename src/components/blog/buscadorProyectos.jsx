@@ -122,10 +122,10 @@ export default function Buscador() {
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-        {filteredProjects.map((project) => (
+        {filteredProjects.map((project, index) => (
           <div
             className="h-auto w-72 lg:w-64 rounded-lg py-2 text-start transition duration-500 hover:scale-110"
-            key={project.title}
+            key={index}
           >
             <img
               className="rounded-lg w-full   "

@@ -95,7 +95,7 @@ const Firebase = () => (
         <use fill="#FFA712" fill-rule="evenodd" xlink:href="#path-1"></use>
         <use
           fill="#000000"
-          fill-opacity="1"
+          fillOpacity="1"
           filter="url(#filter-2)"
           xlink:href="#path-1"
         ></use>
@@ -108,7 +108,7 @@ const Firebase = () => (
         <use fill="#FFA50E" fill-rule="evenodd" xlink:href="#path-3"></use>
         <use
           fill="#000000"
-          fill-opacity="1"
+          fillOpacity="1"
           filter="url(#filter-4)"
           xlink:href="#path-3"
         ></use>
