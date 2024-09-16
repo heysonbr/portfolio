@@ -82,7 +82,7 @@ export default function Buscador() {
     }
   }
 
-  const technologies = ["React","ReactNative", "NextJS", "Astro", "Python"];
+  const technologies = ["React", "ReactNative", "NextJS", "Astro", "Python"];
 
   const filteredProjects = search
     ? projects.filter((project) =>
@@ -135,8 +135,8 @@ export default function Buscador() {
             <h2 className="text-xl font-semibold mt-2"> {project.title}</h2>
             <p className="text-sm mt-2 h-32">{project.description}</p>
             <ul className="flex flex-row mb-2 gap-x-2 mt-6">
-              {project.tags.map((tag) => (
-                <li key={tag.name}>
+              {project.tags.map((tag, index) => (
+                <li key={index}>
                   <span
                     className={`flex gap-x-2 rounded-full text-xs h-6 w-8 items-center justify-center ${getColorClass(
                       tag.name
