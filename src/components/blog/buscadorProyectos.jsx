@@ -11,6 +11,8 @@ import ReactNative from "../icons/reactNative";
 import Firebase from "../icons/firebase";
 import Tailwind from "../icons/tailwind";
 import Expo from "../icons/expo";
+import Css from "../icons/css";
+import JavaScript from "../icons/javascript";
 
 export default function Buscador() {
   const [search, setSearch] = useState("");
@@ -48,6 +50,12 @@ export default function Buscador() {
         case "Expo":
           icon = Expo;
           break;
+        case "Css":
+          icon = Css;
+          break;
+        case "JavaScript":
+          icon = JavaScript;
+          break;
         default:
           icon = null;
       }
@@ -67,7 +75,7 @@ export default function Buscador() {
       case "Python":
         return "bg-green-500";
       case "Html":
-        return "bg-red-600";
+        return "bg-red-300";
       case "ReactNative":
         return "bg-black";
       case "Firebase":
@@ -76,19 +84,38 @@ export default function Buscador() {
         return "bg-slate-600";
       case "Expo":
         return "bg-purple-500";
-      // Agrega más casos si necesitas más colores
+      case "Css":
+        return "bg-blue-300";
+      case "JavaScript":
+        return "bg-yellow-300";
       default:
         return "bg-white";
     }
   }
 
-  const technologies = ["React", "ReactNative", "NextJS", "Astro", "Python"];
+  const technologies = [
+    "Vanilla",
+    "React",
+    "ReactNative",
+    "NextJS",
+    "Astro",
+    "Python",
+  ];
 
   const filteredProjects = search
     ? projects.filter((project) =>
-        project.tags.some(
-          (tag) => tag.name.toLowerCase() === search.toLowerCase()
-        )
+        project.tags.some((tag) => {
+          const tagName = tag.name.toLowerCase();
+          if (search.toLowerCase() === "vanilla") {
+            return (
+              tagName === "html" ||
+              tagName === "css" ||
+              tagName === "javascript"
+            );
+          } else {
+            return tagName === search.toLowerCase();
+          }
+        })
       )
     : projects;
 
@@ -99,7 +126,7 @@ export default function Buscador() {
           <select
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            className="border border-gray-500 bg-slate-800 rounded-lg p-1"
+            className="border border-gray-500 bg-slate-900 rounded-lg p-1 hover:border-transparent"
           >
             <option value="">Mostrar todos</option>
             {technologies.map((tech) => (
@@ -163,6 +190,14 @@ export default function Buscador() {
                   href={project.youtube}
                 >
                   Video
+                </a>
+              )}
+              {project.demo && (
+                <a
+                  className="border border-gray-500 rounded-lg p-1 m-1 bg-slate-900 hover:border-transparent"
+                  href={project.demo}
+                >
+                  Demo
                 </a>
               )}
             </footer>
