@@ -43,17 +43,6 @@
     ]
   },
   {
-    "title": "TiendaMuebles",
-    "description": "Mi primer proyecto de HTML y CSS, donde se puede ver una tienda de muebles ficticia. Fue un proyecto de práctica para aprender los conceptos básicos de HTML y CSS.",
-    "github": "https://github.com/heysonbr/primer-proyecto-html-css",
-    "demo": "https://astounding-boba-9404a5.netlify.app/",
-    "image": "/tiendaMuebles.png",
-    "tags": [
-      { "name": "Html", "icon": "Html" },
-      { "name": "Css", "icon": "Css" }
-    ]
-  },
-  {
     "title": "Venta de Cursos",
     "description": "Mi primer proyecto donde implemento javascript, donde se puede ver una tienda de cursos ficticia. Fue un proyecto de práctica para aprender los conceptos básicos de JavaScript.",
     "github": "https://github.com/heysonbr/primer-proyecto-js",
@@ -63,6 +52,17 @@
       { "name": "Html", "icon": "Html" },
       { "name": "Css", "icon": "Css" },
       { "name": "JavaScript", "icon": "JavaScript" }
+    ]
+  },
+  {
+    "title": "TiendaMuebles",
+    "description": "Mi primer proyecto de HTML y CSS, donde se puede ver una tienda de muebles ficticia. Fue un proyecto de práctica para aprender los conceptos básicos de HTML y CSS.",
+    "github": "https://github.com/heysonbr/primer-proyecto-html-css",
+    "demo": "https://astounding-boba-9404a5.netlify.app/",
+    "image": "/tiendaMuebles.png",
+    "tags": [
+      { "name": "Html", "icon": "Html" },
+      { "name": "Css", "icon": "Css" }
     ]
   }
 ]

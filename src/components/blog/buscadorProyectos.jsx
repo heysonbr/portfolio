@@ -93,14 +93,7 @@ export default function Buscador() {
     }
   }
 
-  const technologies = [
-    "Vanilla",
-    "React",
-    "ReactNative",
-    "NextJS",
-    "Astro",
-    "Python",
-  ];
+  const technologies = ["Vanilla", "React", "ReactNative", "NextJS", "Astro"];
 
   const filteredProjects = search
     ? projects.filter((project) =>
