@@ -34,7 +34,7 @@
   },
   {
     "title": "StarWars-BLog",
-    "description": "StarWars-BLog es una aplicación web que permite a los usuarios buscar personajes de Star Wars, ver detalles de los personajes y guardarlos en favoritos. ",
+    "description": "StarWars-BLog es una aplicación web que permite a los usuarios buscar personajes de Star Wars, ver detalles de los personajes y guardarlos en favoritos. Fue un proyecto de practica para aprender a usar React y Apis.",
     "github": "https://github.com/heysonbr/Starwars-blog-reading-list",
     "image": "/starwars.png",
     "tags": [
