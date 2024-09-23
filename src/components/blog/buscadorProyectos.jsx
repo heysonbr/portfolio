@@ -13,6 +13,7 @@ import Tailwind from "../icons/tailwind";
 import Expo from "../icons/expo";
 import Css from "../icons/css";
 import JavaScript from "../icons/javascript";
+import NextJs from "../icons/nextJs";
 
 export default function Buscador() {
   const [search, setSearch] = useState("");
@@ -56,6 +57,9 @@ export default function Buscador() {
         case "JavaScript":
           icon = JavaScript;
           break;
+        case "NextJS":
+          icon = NextJs;
+          break;
         default:
           icon = null;
       }
@@ -88,6 +92,8 @@ export default function Buscador() {
         return "bg-blue-300";
       case "JavaScript":
         return "bg-yellow-300";
+      case "NextJS":
+        return "bg-white";
       default:
         return "bg-white";
     }
@@ -122,8 +128,8 @@ export default function Buscador() {
             className="border border-gray-500 bg-slate-900 rounded-lg p-1 hover:border-transparent"
           >
             <option value="">Mostrar todos</option>
-            {technologies.map((tech) => (
-              <option key={tech} value={tech}>
+            {technologies.map((tech, index) => (
+              <option key={index} value={tech}>
                 {tech}
               </option>
             ))}
