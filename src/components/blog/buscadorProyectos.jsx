@@ -120,6 +120,7 @@ export default function Buscador() {
 
   return (
     <div className="container mx-auto md:max-w-2xl lg:max-w-4xl  xl:max-w-7xl  item-center justify-center text-center h-full flex flex-col gap-4 mt-8">
+      <h2 className="text-3xl font-semibold">Todos mis Proyectos</h2>
       <div className="flex flex-col gap-2 items-center justify-center">
         <div>
           <select
