@@ -35,7 +35,7 @@ export default function descipcion(descripcion) {
       <p className="text-lg  mt-5 ">
         +1 Año experiencia.{" "}
         <strong className="text-purple-300">Full Stack Developer</strong> de
-        Nicaragua, residiendo en Mallorca 🇪🇸. Especializado en el desarrollo de
+         Mallorca 🇪🇸. Especializado en el desarrollo de
         aplicaciones web únicas.
       </p>
 
