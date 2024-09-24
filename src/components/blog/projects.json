@@ -33,6 +33,18 @@
     ]
   },
   {
+    "title": "Bingo",
+    "description": "Un proyecto pequeño con next.js, donde se puede jugar al bingo. Fue un proyecto de práctica para aprender los conceptos básicos de Next.js.",
+    "github": "https://github.com/heysonbr/bingo",
+    "demo": "https://bingo-seven-liard.vercel.app/",
+    "image": "/bingo.png",
+    "tags": [
+      { "name": "NextJS", "icon": "NextJS" },
+      { "name": "React", "icon": "React" },
+      { "name": "Tailwind", "icon": "Tailwind" }
+    ]
+  },
+  {
     "title": "StarWars-BLog",
     "description": "StarWars-BLog es una aplicación web que permite a los usuarios buscar personajes de Star Wars, ver detalles de los personajes y guardarlos en favoritos. Fue un proyecto de practica para aprender a usar React y Apis.",
     "github": "https://github.com/heysonbr/Starwars-blog-reading-list",
@@ -63,18 +75,6 @@
     "tags": [
       { "name": "Html", "icon": "Html" },
       { "name": "Css", "icon": "Css" }
-    ]
-  },
-  {
-    "title": "Bingo",
-    "description": "Un proyecto pequeño con next.js, donde se puede jugar al bingo. Fue un proyecto de práctica para aprender los conceptos básicos de Next.js.",
-    "github": "https://github.com/heysonbr/bingo",
-    "demo": "https://bingo-seven-liard.vercel.app/",
-    "image": "/bingo.png",
-    "tags": [
-      { "name": "NextJS", "icon": "NextJS" },
-      { "name": "React", "icon": "React" },
-      { "name": "Tailwind", "icon": "Tailwind" }
     ]
   }
 ]
