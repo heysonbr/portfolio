@@ -7,12 +7,13 @@ export const SobreMi = () => {
       <h2 className="text-4xl pb-10">Sobre mí</h2>
       <div className="flex flex-col md:flex-row items-center">
         <p className="text-xl pr-0 md:pr-5   ">
-          Mi nombre es Heyson Betancourt. Comencé mi carrera en programación en
-          2016, pero tuve que apartarme para trabajar en el sector de la
-          construcción durante 8 años. Ahora he vuelto con más fuerza,
-          aprovechando mis experiencias previas para aportar una nueva
-          perspectiva al desarrollo de software. Me especializo en desarrollo
-          full stack, y disfruto aprender constantemente y compartir
+          Mi nombre es{" "}
+          <span className="text-purple-300 font-semibold">Heyson Betancourt</span>. Comencé mi
+          carrera en programación en 2016, pero tuve que apartarme para trabajar
+          en el sector de la construcción durante 8 años. Ahora he vuelto con
+          más fuerza, aprovechando mis experiencias previas para aportar una
+          nueva perspectiva al desarrollo de software. Me especializo en
+          desarrollo full stack, y disfruto aprender constantemente y compartir
           conocimientos. Mi pasión por la tecnología sigue creciendo,
           impulsándome a enfrentar nuevos desafíos y crear soluciones
           innovadoras.
