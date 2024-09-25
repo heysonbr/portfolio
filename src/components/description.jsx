@@ -5,7 +5,7 @@ import { useState } from "react";
 
 export default function descipcion(descripcion) {
   return (
-    <div className="container mx-auto p-5 mt-20 lg:max-w-4xl md:max-w-2xl" id="inicio">
+    <div className="container mx-auto p-5 mt-40 lg:max-w-4xl md:max-w-2xl" id="inicio">
       <div className="flex flex-col-reverse items-center md:flex-row justify-between">
         <div className="flex flex-col-reverse m-5 md:flex-row-reverse items-center">
           {/* <img
