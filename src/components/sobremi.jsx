@@ -19,7 +19,7 @@ export const SobreMi = () => {
           <span className="text-purple-300 font-semibold">full stack</span>, y
           disfruto aprender constantemente y compartir conocimientos. Mi pasión
           por la tecnología sigue creciendo, impulsándome a enfrentar nuevos
-          desafíos y crear soluciones innovadoras.
+          desafíos y crear soluciones <span className="text-purple-300 font-semibold"></span>innovadoras.
         </p>
         {/* <div className="rounded-lg m-5 md:ml-0  border-4 border-white duration-200 hover:scale-110 ">
           <img
