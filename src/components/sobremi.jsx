@@ -5,7 +5,7 @@ export const SobreMi = () => {
       id="sobre-mi"
     >
       <h2 className="text-4xl pb-10">Sobre mí</h2>
-      <div className="flex flex-col md:flex-row items-center">
+      <div className="flex flex-col md:flex-col items-center">
         <p className="text-xl pr-0 md:pr-5   ">
           Mi nombre es{" "}
           <span className="text-purple-300 font-semibold">
@@ -19,9 +19,16 @@ export const SobreMi = () => {
           <span className="text-purple-300 font-semibold">full stack</span>, y
           disfruto aprender constantemente y compartir conocimientos. Mi pasión
           por la tecnología sigue creciendo, impulsándome a enfrentar nuevos
-          desafíos y crear soluciones{" "}
-          <span className="text-purple-300 font-semibold">innovadoras</span>.
+          desafíos y crear soluciones innovadoras.
         </p>
+        <br />
+        <div className="flex gap-2">
+          <p>Tengo un certificado de:</p>
+          <a className="border px-1 rounded-lg bg-purple-500 duration-500 hover:scale-125" href="https://certificate.4geeks.com/c43a8dbaab4e58af4abce80a1211649b73b0880f">
+            4Geeks Academy
+          </a>
+        </div>
+
         {/* <div className="rounded-lg m-5 md:ml-0  border-4 border-white duration-200 hover:scale-110 ">
           <img
             className="origin-left rotate-6 size-80 duration-200 hover:rotate-0  md:size-auto"
