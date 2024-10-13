@@ -22,11 +22,21 @@ export const SobreMi = () => {
           desafíos y crear soluciones innovadoras.
         </p>
         <br />
-        <p>Actualmente trabajando como full stack en Bubbo una app hecha en ReactNative y AWS. Tambien colaboro en una web app que se llama AIventure echa con NextJS y Firebase.</p>
+        <p className="text-xl mb-10 ">
+          Actualmente trabajando como full stack en{" "}
+          <a
+            href="https://www.bubbo.app/"
+            className="text-purple-500 font-semibold  duration-300 hover:scale-125"
+          >
+            Bubbo{" "}
+          </a>
+          una app hecha en ReactNative y AWS. Tambien colaboro en una web app
+          que se llama AIventure echa con NextJS y Firebase.
+        </p>
         <div className="flex gap-2">
           <p>Tengo un certificado de:</p>
           <a
-            className="border border-2 px-1 rounded-lg bg-purple-500 duration-500 hover:scale-125"
+            className=" border-2 px-1 rounded-lg bg-purple-500 duration-500 hover:scale-125"
             href="https://certificate.4geeks.com/c43a8dbaab4e58af4abce80a1211649b73b0880f"
           >
             4Geeks Academy
