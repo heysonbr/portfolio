@@ -31,7 +31,8 @@ export const SobreMi = () => {
             Bubbo{" "}
           </a>
           una app hecha en ReactNative y AWS. Tambien colaboro en una web app
-          que se llama AIventure echa con NextJS y Firebase.
+          que se llama
+          <a href="">AIventure </a> echa con NextJS y Firebase.
         </p>
         <div className="flex gap-2">
           <p>Tengo un certificado de:</p>
